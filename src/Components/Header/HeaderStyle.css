@@ -1,0 +1,92 @@
+* {
+    outline: 0!important;
+}
+.site-header {
+    padding: 10px 0;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    height: 89px;
+    background: #fff;
+}
+.section {
+    width: 100%;
+    float: left
+}
+.menu-btn {
+    width: 28px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    margin: 24px 0 0;
+    /* background: url(../images/hamburger_menu.svg) center center no-repeat */
+    background: url(../../../public/images/hamburger_menu.svg) center center no-repeat;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0
+}
+
+.site-logo img {
+    image-rendering: unset;
+    max-width: 130px;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+.header-btn {
+    padding: 19px 0 0;
+    font-family: biotifexbold;
+}
+
+.header-btn button.log {
+    background: 0 0;
+    color: #000;
+}
+.header-btn button {
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 13px;
+    font-family: biotifbold;
+    color: #000f38;
+    letter-spacing: .43px;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 0 0 0 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header-btn a.signup-btn {
+    background: #e12727;
+    color: #fff;
+    text-decoration: none;
+}
+::selection {
+    color: #fff;
+    background: #ee3235;
+}
+.header-btn .signup-btn {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    font-family: biotifbold;
+    padding: 13px 20px;
+    border-radius: 12px;
+    letter-spacing: .43px;
+}
+.header-btn a {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
